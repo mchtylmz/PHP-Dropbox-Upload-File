@@ -7,7 +7,7 @@ if (file_exists($fileName.'.zip')) {
 	$path = $fileName.'.zip';
 	$fp = fopen($path, 'rb');
 	$size = filesize($path);
-	$AccessToken = 'IdfRWdcw8xAAAAAAAAAAf9E168N5RhW7Qyv6JqvP7RRelWM75KkZAVl0m_NmuM62';
+	$AccessToken = '___TOKEN___';
 
 	$cheaders = array('Authorization: Bearer '.$AccessToken,
 	                  'Content-Type: application/octet-stream',
